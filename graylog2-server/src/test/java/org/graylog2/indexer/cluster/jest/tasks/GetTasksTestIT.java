@@ -40,9 +40,9 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class GetTasksTest extends ElasticsearchBase {
+public class GetTasksTestIT extends ElasticsearchBase {
 
-  private static final Logger LOG = LoggerFactory.getLogger(GetTasksTest.class);
+  private static final Logger LOG = LoggerFactory.getLogger(GetTasksTestIT.class);
   private static final MissingNode MISSING_NODE = MissingNode.getInstance();
 
   private final static ObjectMapper om = new ObjectMapper();
